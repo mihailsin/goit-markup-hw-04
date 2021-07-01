@@ -155,23 +155,20 @@ img {
 }
 .header-contacts-list .link {
   display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-  align-items: center;
 
   color: var(--primary-text-color);
 }
 
-.icon-envelope,
-.icon-smartphone {
+.contact-icon {
   margin-right: 10px;
   fill: var(--primary-text-color);
 }
 
-.header-contacts-list .link:hover .icon-envelope,
-.header-contacts-list .link:focus .icon-envelope,
-.header-contacts-list .link:hover .icon-smartphone,
-.header-contacts-list .link:focus .icon-smartphone {
+.header-contacts-list .link:hover .contact-icon,
+.header-contacts-list .link:focus .contact-icon {
   fill: var(--accent-color);
 }
 
@@ -228,6 +225,19 @@ img {
 /* Advantages */
 .advantages-title {
   margin-bottom: 10px;
+}
+.thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-bckg-color);
+}
+.advantages-icon {
+  width: 70px;
+  height: 70px;
 }
 .advantages-list {
   display: flex;
