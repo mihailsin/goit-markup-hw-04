@@ -189,6 +189,8 @@ img {
   background-image: linear-gradient(var(--hero-overlay-color), var(--hero-overlay-color)),
     url(../images/hero-bcg-img.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
   text-align: center;
   margin-left: auto;
